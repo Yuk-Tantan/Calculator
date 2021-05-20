@@ -1,0 +1,46 @@
+div{
+  background-color: black;
+  width: 167.25px;
+  height: 20px;
+  padding-top: 6px;
+  padding-right: 7px;
+  padding-bottom: 11px;
+  border-radius: 10px;
+  text-align: right;
+}
+
+input{
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: right;
+  width: 155px;
+  font-size: 20px; 
+}
+
+li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.narrow-button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  /*border: none;*/
+}
+
+.wide-button {
+  width: 85.4px;
+  height: 40px;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 10px;
+  /*border: none;*/
+}
+
+.tool-button {
+  background-color: orange;
+  color: white;
+}

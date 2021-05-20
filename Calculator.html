@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <head>
+    <meta charset="utf8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!--integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="Calculator.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    
+    <ul>
+      <li>
+        <div id="calcDisplay">
+          <input />
+        </div>
+      </li>
+      <li>
+        <button class="narrow-button" onclick="append( '7' )">7</button>
+        <button class="narrow-button" onclick="append( '8' )">8</button>
+        <button class="narrow-button" onclick="append( '9' )">9</button>
+        <button class="narrow-button tool-button" onclick="append( '/' )">÷</button>
+      </li>
+      <li>
+        <button class="narrow-button" onclick="append( '4' )">4</button>
+        <button class="narrow-button" onclick="append( '5' )">5</button>
+        <button class="narrow-button" onclick="append( '6' )">6</button>
+        <button class="narrow-button tool-button" onclick="append( '*' )">x</button>
+      </li>
+      <li>
+        <button class="narrow-button" onclick="append( '1' )">1</button>
+        <button class="narrow-button" onclick="append( '2' )">2</button>
+        <button class="narrow-button" onclick="append( '3' )">3</button>
+        <button class="narrow-button tool-button" onclick="append( '-' )">-</button>
+      </li>
+      <li>
+        <button class="narrow-button" onclick="append( '0' )">0</button>
+        <button class="narrow-button" onclick="append( '00' )">00</button>
+        <button class="narrow-button" onclick="append( '.' )">.</button>
+        <button class="narrow-button tool-button" onclick="append( '+' )">+</button>
+      </li>
+      <li>
+        <button class="wide-button tool-button" onclick="update( '' )">AC</button>
+        <button class="wide-button tool-button" onclick="calc()">=</button>
+      </li>
+    </ul>
+    
+    <script type="text/javascript" src="Calculator.js"></script>
+  </body>
+</html>
